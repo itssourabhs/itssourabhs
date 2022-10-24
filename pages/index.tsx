@@ -10,15 +10,15 @@ import { devices } from "lib/displayDevice";
 
 import { Flex } from "components/Layout/Container/styles";
 
-import ProfilePicture from "public/assets/png/Lasha.png";
+import ProfilePicture from "public/assets/png/Suman.png";
 
 export default function Home() {
   return (
     <Container>
       <HeroFlex align="flex-start">
         <ContentWrapper>
-          <h1>Lasha Kakabadze</h1>
-          <h2>React.js Developer</h2>
+          <h1>Sourabh Suman</h1>
+          <h2>Full Stack Developer</h2>
           <p>
             Passionate React Developer with 3+ years of experience blending the
             design with programming skills to deliver an immersive and engaging
@@ -32,7 +32,7 @@ export default function Home() {
         </ContentWrapper>
         <RoundImage
           src={ProfilePicture}
-          alt="Picture of Lasha"
+          alt="Picture of Sourabh"
           width="150px"
           height="150px"
         />

@@ -8,7 +8,7 @@ import { PostsProps } from "lib/types";
 import { Flex } from "components/Layout/Container/styles";
 import Container from "components/Layout/Container";
 
-import ProfilePicture from "public/assets/png/Lasha.png";
+import ProfilePicture from "public/assets/png/Suman.png";
 
 interface BlogProps {
   filteredPost: PostsProps;
@@ -23,16 +23,16 @@ interface ParamsProps {
 
 export default function Blog({ filteredPost, title }: BlogProps) {
   return (
-    <Container title={`${title} - Lasha Kakabadze`}>
+    <Container title={`${title} - Sourabh Suman`}>
       <BlogFlex>
         <AuthorContainer>
           <RoundImage
             src={ProfilePicture}
-            alt="Picture of Lasha"
+            alt="Picture of Sourabh"
             width="45px"
             height="45px"
           />
-          <h4>Lasha Kakabadze / {formatDate(filteredPost.pubDate)}</h4>
+          <h4>Sourabh Suman / {formatDate(filteredPost.pubDate)}</h4>
         </AuthorContainer>
         <div>
           {Number(filteredPost.description.length / 1750).toFixed(0)} min read

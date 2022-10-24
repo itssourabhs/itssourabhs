@@ -36,12 +36,12 @@ export const Footer = ({ darkTheme }: StringProps) => {
               <ExternalLink href="https://github.com/Adrinlol">
                 GitHub
               </ExternalLink>
-              <ExternalLink href="https://www.linkedin.com/in/lasha-kakabadze/">
+              <ExternalLink href="https://www.linkedin.com/in/Sourabh-kakabadze/">
                 LinkedIn
               </ExternalLink>
             </FlexLinks>
             <FlexLinks>
-              <ExternalLink href="https://www.linkedin.com/in/lasha-kakabadze/">
+              <ExternalLink href="https://www.linkedin.com/in/Sourabh-kakabadze/">
                 Download
               </ExternalLink>
               <Navigation href="/top-tracks" text="Top Tracks" />

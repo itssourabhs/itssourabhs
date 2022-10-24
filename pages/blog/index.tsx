@@ -4,7 +4,7 @@ import { Posts } from "components/Posts";
 
 export default function Blog() {
   return (
-    <Container title="Blog - Lasha Kakabadze">
+    <Container title="Blog - Sourabh Suman">
       <h1>Blog</h1>
       <Paragraph>
         In the recent years, I've found out that writing blogs is a great way to
