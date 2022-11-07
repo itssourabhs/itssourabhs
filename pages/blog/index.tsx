@@ -7,13 +7,13 @@ export default function Blog() {
     <Container title="Blog - Sourabh Suman">
       <h1>Blog</h1>
       <Paragraph>
-        In the recent years, I've found out that writing blogs is a great way to
-        reinforce knowledge, as it helps me to write a clear documentation.{" "}
+        I have always been told that to write down something is a great way to
+        reinforce your knowledge, as it helps to clear any doubts.{" "}
         <br />
-        Initially, my blogs were intended for one audience - myself. But once I
-        started more people people reading my articles, it was time to express
-        my thoughts more clearly, organize my writing and read more about the
-        particular topic I was writing about.
+      
+        When i started my career i focused mainly on technical side rather than documentation and drafting, 
+        But as i'm gaining more experience i'm starting to realize the importance of writing things.
+        So i'm going to darft my learnings/experiences for me and for the internet to read.
       </Paragraph>
       <Posts title="All Stories" />
     </Container>

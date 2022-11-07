@@ -8,7 +8,7 @@ export default async function handler(
   try {
     if (req.method === "GET") {
       const userReposResponse = await fetch(
-        "https://api.github.com/users/adrinlol/repos?per_page=10"
+        "https://api.github.com/users/itssourabhs/repos?per_page=10"
       );
 
       const repositories = await userReposResponse.json();
@@ -16,7 +16,7 @@ export default async function handler(
       const mine = repositories.filter((repo: Data) => !repo.fork);
 
       const popular = mine
-        .filter((count: Data) => count.stargazers_count > 30)
+        .filter((count: Data) => count.stargazers_count > -1)
         .map((repo: Data) => ({
           htmlUrl: repo.html_url,
           name: repo.name.substring(0, 65),

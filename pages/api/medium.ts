@@ -18,7 +18,7 @@ export default async function handler(
       );
 
       return res.status(200).json({
-        feed: [],
+        feed: stories.items,
       });
     }
   } catch (e: any) {

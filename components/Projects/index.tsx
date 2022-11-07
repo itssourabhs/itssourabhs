@@ -9,7 +9,7 @@ export const Projects = () => {
 
   return (
     <Container>
-      <h3>Featured Projects</h3>
+      <h3>Github Projects</h3>
       {data?.message ? (
         <h4>Maximum rate limit reached.</h4>
       ) : (

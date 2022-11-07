@@ -35,11 +35,10 @@ export const Timeline = () => {
   const FullTimeline = () => (
     <>
       <Divider />
-      <Year>2014</Year>
+      <Year>2013</Year>
       <ul>
-        <Step title="Started at University">
-          I started studying Business Administration at The Agricultural
-          University of Georgia.
+        <Step title="Started at College">
+          I started studying Information Technology at Rustamji Institute of Technology.
         </Step>
       </ul>
       <Divider />
@@ -122,20 +121,44 @@ export const Timeline = () => {
         </Step>
       </ul>
       <Divider />
-      <Year>2018</Year>
+      <Year>2020</Year>
       <ul>
-        <Step title="Joined Circle">
-          I was offered and accepted a full-time offer with Circle - a Software
-          Development company in Georgia.
-        </Step>
-        <Step title="Started Learning Frontend Development">
-          Got hooked on learning Frontend, but I wasn't sure where or how to
-          start. <br />
-          There were so many options available not only programming
-          language-wise, but regarding tools, frameworks, and technologies as
-          well.
+        <Step title="Joined Samarth E-Gov">
+          Joined Samarth E-Gov Project Under the Ministry of Education, Govt. of India as a Full Stack Software Developer.
+          <br/>
+          Worked with WowChess on there mobile app
         </Step>
       </ul>
+      <Divider />
+      <Year>2019</Year>
+      <ul>
+        <Step title="Joined Krenai Services Private Limited">
+          Joined Krenai Services Private Limited as a Mobile Application Developer.Learnt Java, Android Studio.
+          Worked under founders of the company. Maintained and Developed client's Android Application (ProteinOClock and Dailymeals).
+          <br/>
+          Pitched React-Native as a solution to cut down development time of Android and iOS Apps the company and
+          got the approval to start learning React-Native. Built a prototype in React-Native and built a team to work on 
+          the React-Native. Published More than 8 apps on Play Store & App Store.
+        </Step>
+      </ul>
+      <Divider />
+      <Year>2018</Year>
+      <ul>
+        <Step title="Working & Learning">
+          Got hooked on Data Analysis. Learnt ETL (using Python), SQL and Big Data. Worked on many fun projects like Bounding Box, Verifying Video
+          Segment Labels and VCA-Calibration Rating, learnt a lot and had a lot of fun.
+          <br/>
+          Completed Data Analyst with Python, SQL Fundamentals and Data Visualization with Python Career Track on DataCamp.
+        </Step>
+      </ul>
+      <Divider />
+      <Year>2017</Year>
+      <ul>
+        <Step title="Joined GlobalLogic">
+          I was offered and accepted a full-time offer as a Associate Data Analyst with GlobalLogic - An American digital services company
+          providing software product design and development services.
+        </Step>
+        </ul>
       {isShowingFullTimeline ? (
         <FullTimeline />
       ) : (
