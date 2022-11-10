@@ -27,21 +27,21 @@ export const Footer = ({ darkTheme }: StringProps) => {
             <FlexLinks>
               <Navigation href="/" text="Home" />
               <Navigation href="/blog" text="Blog" />
-              <Navigation href="/testimonials" text="Testimonials" />
+              {/* <Navigation href="/testimonials" text="Testimonials" /> */}
             </FlexLinks>
             <FlexLinks>
-              <ExternalLink href="https://twitter.com/Adrinlolx">
+              <ExternalLink href="#">
                 Twitter
               </ExternalLink>
-              <ExternalLink href="https://github.com/Adrinlol">
+              <ExternalLink href="#">
                 GitHub
               </ExternalLink>
-              <ExternalLink href="https://www.linkedin.com/in/Sourabh-kakabadze/">
+              <ExternalLink href="#">
                 LinkedIn
               </ExternalLink>
             </FlexLinks>
             <FlexLinks>
-              <ExternalLink href="https://www.linkedin.com/in/Sourabh-kakabadze/">
+              <ExternalLink href="#">
                 Download
               </ExternalLink>
               <Navigation href="/top-tracks" text="Top Tracks" />
